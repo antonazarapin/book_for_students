@@ -1,0 +1,131 @@
+/* * {
+	box-sizing: border-box;
+} */
+
+body {
+	background-color: beige;
+}
+
+
+h1 {
+	color: red;
+	text-align: center;
+}
+
+h2 {
+	color: blue;
+	text-align: center;
+	font-weight: 900;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 35px;
+}
+
+span {
+	color: #4B0082;
+}
+
+.bold {
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.italic {
+	border: 2px solid blue;
+	padding: 20px;
+	background-color: #fff;
+	font-style: italic;
+	color: rgb(139, 0, 149);
+}
+
+.italic_second {
+	border: 2px solid rgb(0, 255, 47);
+	padding: 30px;
+	background-color: #fab4b4;
+	font-style: italic;
+	color: rgb(255, 251, 233);
+}
+
+.italic_third {
+	text-align: center;
+	border: 2px solid blue;
+	padding: 20px;
+	background-color: #ffe7e7;
+	font-style: italic;
+	color: rgb(149, 0, 15);
+}
+
+.italic_forth {
+	text-align: center;
+	border: 2px solid blue;
+	padding: 20px;
+	background-color: #ffe7e7;
+	font-style: italic;
+	color: rgb(149, 0, 15);
+}
+
+#bigger {
+	font-size: 80px;
+}
+
+.box {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	padding: 20px 30px;
+	border: 3px solid black;
+	margin: 20px;
+}
+
+.box_second {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	font-style: italic;
+	background-color: rgb(229, 255, 0);
+	padding: 20px 30px;
+	border: 3px dashed rgb(129, 0, 0);
+	margin: 20px;
+}
+
+.box_third {
+	border-radius: 20px;
+	font-weight: bold;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background-color: rgb(0, 208, 255);
+	padding: 20px 30px;
+	border: 3px solid rgb(48, 0, 241);
+	margin: 20px;
+}
+
+.box_forth {
+	font-weight: bold;
+	border-radius: 30px;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background-color: rgb(220, 51, 0);
+	padding: 20px 30px;
+	border: 3px solid rgb(255, 0, 217);
+	margin: 20px;
+}
+
+a {
+	padding: 20px;
+	margin: 200px;
+	width: 500px;
+}
+
+img {
+	display: block;
+	width: 350px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 40px;
+}
